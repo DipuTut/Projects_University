@@ -1,0 +1,138 @@
+TLibrary
+v7
+r0
+t320534351.637507
+cCheck dependencies
+cCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/customer.o /Users/Dipu/ProTasks/Library/../library/customer.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/library.o /Users/Dipu/ProTasks/Library/../library/library.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/librarymain.o /Users/Dipu/ProTasks/Library/../library/librarymain.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Dipu/ProTasks/Library/build/Debug/Library normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/Dipu/ProTasks/Library/../library/customer.cc
+c000000004BA36C7800000000000005C0
+t1269001336
+s1472
+i"customer.hh"
+i"library.hh"
+i<iostream>
+
+N/Users/Dipu/ProTasks/Library/../library/library.cc
+c0000000049B114E800000000000010B4
+t1236341992
+s4276
+i"library.hh"
+i"customer.hh"
+i<iostream>
+
+N/Users/Dipu/ProTasks/Library/../library/librarymain.cc
+c000000004D6ABFB00000000000000426
+t1298841520
+s1062
+i"customer.hh"
+i"library.hh"
+
+N/Users/Dipu/ProTasks/Library/build/Debug/Library
+t1298841535
+s63272
+
+N/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/Library.LinkFileList
+c000000004D62EA240000000000000134
+t1298328100
+s308
+
+N/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/customer.o
+t1298328100
+s97020
+
+N/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/library.o
+t1298328100
+s157492
+
+N/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/librarymain.o
+t1298841520
+s47396
+
+N/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Dipu/ProTasks/Library/main.cpp
+c000000004D62E957000000000000008F
+t1298327895
+s143
+i<iostream>
+
+N/Users/Dipu/ProTasks/library/customer.hh
+c0000000049A337BC00000000000001EA
+t1235433404
+s490
+i<string>
+
+N/Users/Dipu/ProTasks/library/library.hh
+c0000000049A3374A00000000000007BC
+t1235433290
+s1980
+i<string>
+i<vector>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320534351#320534351#0(0"0(0#1#0"8615687904#0"0#
+
+CCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/customer.o /Users/Dipu/ProTasks/Library/../library/customer.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320020900.286573
+e320020900.598270
+r1
+xCompileC
+xbuild/Library.build/Debug/Library.build/Objects-normal/x86_64/customer.o
+x/Users/Dipu/ProTasks/Library/../library/customer.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Dipu/ProTasks/Library/../library/customer.cc320020900#320020900#0(0"0(0#0#51"/Users/Dipu/ProTasks/Library/../library/customer.cc8614239744#1199"    cd /Users/Dipu/ProTasks/Library    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-generated-files.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-own-target-headers.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-project-headers.hmap -F/Users/Dipu/ProTasks/Library/build/Debug -I/Users/Dipu/ProTasks/Library/build/Debug/include -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources -c /Users/Dipu/ProTasks/Library/../library/customer.cc -o /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/customer.o0#
+
+CCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/library.o /Users/Dipu/ProTasks/Library/../library/library.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320020900.287251
+e320020900.649284
+r1
+xCompileC
+xbuild/Library.build/Debug/Library.build/Objects-normal/x86_64/library.o
+x/Users/Dipu/ProTasks/Library/../library/library.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Dipu/ProTasks/Library/../library/library.cc320020900#320020900#0(0"0(0#0#50"/Users/Dipu/ProTasks/Library/../library/library.cc8614118784#1197"    cd /Users/Dipu/ProTasks/Library    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-generated-files.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-own-target-headers.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-project-headers.hmap -F/Users/Dipu/ProTasks/Library/build/Debug -I/Users/Dipu/ProTasks/Library/build/Debug/include -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources -c /Users/Dipu/ProTasks/Library/../library/library.cc -o /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/library.o0#
+
+CCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/librarymain.o /Users/Dipu/ProTasks/Library/../library/librarymain.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320534335.629431
+e320534335.630215
+r1
+xCompileC
+xbuild/Library.build/Debug/Library.build/Objects-normal/x86_64/librarymain.o
+x/Users/Dipu/ProTasks/Library/../library/librarymain.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Dipu/ProTasks/Library/../library/librarymain.cc320534335#320534335#0(0"0(0#0#54"/Users/Dipu/ProTasks/Library/../library/librarymain.cc8607453664#1205"    cd /Users/Dipu/ProTasks/Library    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-generated-files.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-own-target-headers.hmap -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Library-project-headers.hmap -F/Users/Dipu/ProTasks/Library/build/Debug -I/Users/Dipu/ProTasks/Library/build/Debug/include -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/DerivedSources -c /Users/Dipu/ProTasks/Library/../library/librarymain.cc -o /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/librarymain.o0#
+
+CCompileC build/Library.build/Debug/Library.build/Objects-normal/x86_64/main.o /Users/Dipu/ProTasks/Library/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/Dipu/ProTasks/Library/build/Debug/Library normal x86_64
+s320534335.630261
+e320534335.646614
+r1
+xLd
+x/Users/Dipu/ProTasks/Library/build/Debug/Library
+xnormal
+xx86_64
+lSLF07#2@53"Link /Users/Dipu/ProTasks/Library/build/Debug/Library320534335#320534335#0(0"0(0#0#0"8614359264#448"    cd /Users/Dipu/ProTasks/Library    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dipu/ProTasks/Library/build/Debug -F/Users/Dipu/ProTasks/Library/build/Debug -filelist /Users/Dipu/ProTasks/Library/build/Library.build/Debug/Library.build/Objects-normal/x86_64/Library.LinkFileList -mmacosx-version-min=10.6 -o /Users/Dipu/ProTasks/Library/build/Debug/Library0#
+

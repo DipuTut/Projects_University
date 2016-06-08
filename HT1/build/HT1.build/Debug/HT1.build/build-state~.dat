@@ -1,0 +1,59 @@
+THT1
+v7
+r0
+t318339366.114333
+cCheck dependencies
+cCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o /Users/Dipu/ProTasks/HT1/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Dipu/ProTasks/HT1/build/Debug/HT1 normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/Dipu/ProTasks/HT1/build/Debug/HT1
+t1296646566
+s10536
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/HT1.LinkFileList
+c000000004D4941A50000000000000056
+t1296646565
+s86
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o
+t1296646565
+s66952
+
+N/Users/Dipu/ProTasks/HT1/main.cpp
+c000000004D49417B000000000000008F
+t1296646523
+s143
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318339365#318339365#0(0"0(0#1#0"8611513472#0"0#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o /Users/Dipu/ProTasks/HT1/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s318339365.642694
+e318339365.885105
+r1
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o
+x/Users/Dipu/ProTasks/HT1/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Dipu/ProTasks/HT1/main.cpp318339365#318339365#0(0"0(0#0#33"/Users/Dipu/ProTasks/HT1/main.cpp8610081088#1065"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/main.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/Dipu/ProTasks/HT1/build/Debug/HT1 normal x86_64
+s318339365.885171
+e318339366.114270
+r1
+xLd
+x/Users/Dipu/ProTasks/HT1/build/Debug/HT1
+xnormal
+xx86_64
+lSLF07#2@45"Link /Users/Dipu/ProTasks/HT1/build/Debug/HT1318339365#318339366#0(0"0(0#0#0"8617045920#412"    cd /Users/Dipu/ProTasks/HT1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dipu/ProTasks/HT1/build/Debug -F/Users/Dipu/ProTasks/HT1/build/Debug -filelist /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/HT1.LinkFileList -mmacosx-version-min=10.6 -o /Users/Dipu/ProTasks/HT1/build/Debug/HT10#
+

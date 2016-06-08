@@ -1,0 +1,459 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;\red100\green56\blue32;\red196\green26\blue22;
+\red170\green13\blue145;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \
+Asadul Haque\
+199677\
+\
+\
+\
+1.  
+\f1 Construct a class \'93Flight Ticket\'94. Identify data members and member functions.\
+\
+\pard\tx560\pardeftab560\ql\qnatural\pardirnatural
+
+\f2\fs22 \cf2 \CocoaLigature0 /*\
+ *  FlightTicket.h\
+ *  \
+ *\
+ *  Created by Md. Asadul Haque on 1/18/11.\
+ *  Copyright 2011 Tampere University of Technology. All rights reserved.\
+ *\
+ */\cf0 \
+\
+\cf3 #ifndef FlightTicket_HH\
+#define FlightTicket_HH\
+\cf0 \
+\cf3 #include \cf4 <string>\cf3 \
+\cf0 \
+\cf5 using\cf0  \cf5 namespace\cf0  std ;\
+\
+\cf5 class\cf0  FlightTicket\
+\{\
+\cf5 public\cf0 :\
+	\cf2 //Constructor\cf0 \
+	FlightTicket();\
+	FlightTicket(\cf5 unsigned\cf0  _ticketNumber, \cf5 unsigned\cf0  _flightNumber,\
+				 string _carrierName, string _passengerName,\
+				 \cf5 unsigned\cf0  _seatNumber, string _from, string _destination,\
+				 string _date, \cf5 double\cf0  _timetoFly, \cf5 double\cf0  _totalFare);\
+\
+\cf2 // Destructor\cf0 \
+	~FlightTicket() ;\
+\
+\cf2 // Operator = \cf0 \
+	FlightTicket \cf5 operator\cf0 =(\cf5 const\cf0  FlightTicket&) ;\
+\cf2 // Copy constructor\cf0 \
+	FlightTicket(\cf5 const\cf0  FlightTicket&) ;\
+	\
+\cf2 // Getter (Accessors)\cf0 \
+	\cf5 unsigned\cf0  getTicketNumber() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getFlightNumber() \cf5 const\cf0  ;\
+	std::string getCarrierName() \cf5 const\cf0  ;\
+	std::string getPassengerName() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getSeatNumber() \cf5 const\cf0  ;\
+	std::string getFrom() \cf5 const\cf0  ;\
+	std::string getDestination() \cf5 const\cf0  ;\
+	std::string getDate() \cf5 const\cf0  ;\
+	\cf5 double\cf0  getTimetoFly() \cf5 const\cf0  ;\
+	\cf5 double\cf0  getTotalFare() \cf5 const\cf0  ;\
+	\
+\cf2 // Setter (Mutators)\cf0 \
+	\cf5 void\cf0  setTicketNumber(\cf5 unsigned\cf0  _ticketNumber) ;\
+	\cf5 void\cf0  setFlightNumber(\cf5 unsigned\cf0  _flightNumber) ;\
+	\cf5 void\cf0  setCarrierName(std::string _carrierName) ;\
+	\cf5 void\cf0  setPassengerName(std::string _passengerName) ;\
+	\cf5 void\cf0  setSeatNumber(\cf5 unsigned\cf0  _seatNumber) ;\
+	\cf5 void\cf0  setFrom(std::string _from) ;\
+	\cf5 void\cf0  setDestination(std::string _destination) ;\
+	\cf5 void\cf0  setDate(std::string _date) ;\
+	\cf5 void\cf0  setTimetoFly(\cf5 double\cf0  _timetoFly) ;\
+	\cf5 void\cf0  setTotalFare(\cf5 double\cf0  _totalFare);\
+	\
+\cf5 private\cf0 :\
+	\
+	\cf2 // Private data members\cf0 \
+	\cf5 unsigned\cf0  ticketNumber ;\
+	\cf5 unsigned\cf0  flightNumber ;\
+	string carrierName ;\
+	string passengerName ;\
+	\cf5 unsigned\cf0  seatNumber ;\
+	string from ;\
+	string destination ;\
+	string date ; \
+	\cf5 double\cf0  timetoFly ;\
+	\cf5 double\cf0  totalFare ;	\
+\
+\} ;\
+\
+\cf3 #endif\
+\
+%%%%%%%%%%%%%%%%%\
+\
+\cf2 /*\
+ *  FlightTicket.cpp\
+ *  \
+ *\
+ *  Created by Md. Asadul Haque on 1/18/11.\
+ *  Copyright 2011 Tampere University of Technology. All rights reserved.\
+ *\
+ */\cf0 \
+\
+\cf3 #include \cf4 <string>\cf3 \
+#include \cf4 "FlightTicket.h"\cf3 \
+\cf0 \
+\cf5 using\cf0  \cf5 namespace\cf0  std ;\
+\
+\cf2 // Constructor\cf0 \
+FlightTicket::FlightTicket():ticketNumber(),flightNumber(),carrierName(),\
+passengerName(),seatNumber(),from(),destination(),date(),timetoFly(),totalFare()\
+\{\
+\}\
+\
+FlightTicket::FlightTicket(\cf5 unsigned\cf0  _ticketNumber, \cf5 unsigned\cf0  _flightNumber,\
+						   string _carrierName, string _passengerName,\
+						   \cf5 unsigned\cf0  _seatNumber, string _from, string _destination,\
+						   string _date, \cf5 double\cf0  _timetoFly, \cf5 double\cf0  _totalFare)\
+\{\
+	ticketNumber = _ticketNumber ;\
+	flightNumber = _flightNumber ;\
+	carrierName = _carrierName ;\
+	passengerName = _passengerName ;\
+	seatNumber = _seatNumber ;\
+	from = _from ;\
+	destination =  _destination ;\
+	date = _date ; \
+	timetoFly = _timetoFly ;\
+	totalFare = _totalFare ;	\
+\}\
+\
+\cf2 // Copy constructor\cf0 \
+FlightTicket::FlightTicket(\cf5 const\cf0  FlightTicket& flightTicket)\
+\{\
+	\cf5 this\cf0 ->ticketNumber = flightTicket.getTicketNumber() ;\
+	\cf5 this\cf0 ->flightNumber = flightTicket.getFlightNumber() ;\
+	\cf5 this\cf0 ->carrierName = flightTicket.getCarrierName() ;\
+	\cf5 this\cf0 ->passengerName = flightTicket.getPassengerName() ;\
+	\cf5 this\cf0 ->seatNumber = flightTicket.getSeatNumber() ;\
+	\cf5 this\cf0 ->from = flightTicket.getFrom() ;\
+	\cf5 this\cf0 ->destination = flightTicket.getDestination() ;\
+	\cf5 this\cf0 ->date = flightTicket.getDate() ;\
+	\cf5 this\cf0 ->timetoFly = flightTicket.getTimetoFly() ;\
+	\cf5 this\cf0 ->totalFare = flightTicket.getTotalFare() ;\
+\}\
+\
+\cf2 // Operator = \cf0 \
+FlightTicket FlightTicket::\cf5 operator\cf0 =(\cf5 const\cf0  FlightTicket& flightTicket)\
+\{\
+	FlightTicket f ;\
+	f.ticketNumber = flightTicket.getTicketNumber() ;\
+	f.flightNumber = flightTicket.getFlightNumber() ;\
+	f.carrierName = flightTicket.getCarrierName() ;\
+	f.passengerName = flightTicket.getPassengerName() ;\
+	f.seatNumber = flightTicket.getSeatNumber() ;\
+	f.from = flightTicket.getFrom() ;\
+	f.destination = flightTicket.getDestination() ;\
+	f.date = flightTicket.getDate() ;\
+	f.timetoFly = flightTicket.getTimetoFly() ;\
+	f.totalFare = flightTicket.getTotalFare() ;\
+	\cf5 return\cf0  f ;\
+\}\
+\
+\cf2 // Destructor\cf0 \
+FlightTicket::~FlightTicket()\
+\{\
+\}\
+\
+\cf2 // Getter (Accessors)\cf0 \
+\cf5 unsigned\cf0  FlightTicket::getTicketNumber() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  ticketNumber ;\
+\}\
+\cf5 unsigned\cf0  FlightTicket::getFlightNumber() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  flightTicket ; \
+\}\
+\
+std::string FlightTicket::getCarrierName() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  carrierName ;\
+\}\
+ \
+std::string FlightTicket::getPassengerName() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  passengerName ;\
+\}\
+\
+\cf5 unsigned\cf0  FlightTicket::getSeatNumber() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  seatNumber ;\
+\}\
+\
+std::string FlightTicket::getFrom() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  from ;\
+\}\
+\
+std::string FlightTicket::getDestination() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  destination ;\
+\}\
+\
+std::string FlightTicket::getDate() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  date ;\
+\}\
+\
+\cf5 double\cf0  FlightTicket::getTimetoFly() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  timetoFly ;\
+\}\
+\
+\cf5 double\cf0  FlightTicket::getTotalFare() \cf5 const\cf0  \
+\{\
+	\cf5 return\cf0  totalFare ;\
+\}\
+\
+\cf2 // Setter (Mutators)\cf0 \
+\cf5 void\cf0  FlightTicket::setTicketNumber(\cf5 unsigned\cf0  _ticketNumber) \
+\{\
+	ticketNumber = _ticketNumber \
+\}\
+\
+\cf5 void\cf0  FlightTicket::setFlightNumber(\cf5 unsigned\cf0  _flightNumber) \
+\{\
+	flightNumber = _flightNumber ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setCarrierName(std::string _carrierName) \
+\{\
+	carrierName = _carrierName ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setPassengerName(std::string _passengerName) \
+\{\
+	passengerName = _passengerName ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setSeatNumber(\cf5 unsigned\cf0  _seatNumber) \
+\{\
+	seatNumber = _seatNumber ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setFrom(std::string _from) \
+\{\
+	from = _from ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setDestination(std::string _destination) \
+\{\
+	destination =  _destination ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setDate(std::string _date) \
+\{\
+	date = _date ; \
+\}\
+\
+\cf5 void\cf0  FlightTicket::setTimetoFly(\cf5 double\cf0  _timetoFly) \
+\{\
+	timetoFly = _timetoFly ;\
+\}\
+\
+\cf5 void\cf0  FlightTicket::setTotalFare(\cf5 double\cf0  _totalFare)\
+\{\
+	totalFare = _totalFare ;\
+\}\
+\
+\cf3 \
+%%%%%%%%%%%%%%%%%%%%\
+\
+2. 
+\f1\fs24 \cf0 \CocoaLigature1 Construct a class \'93Book\'94. Identify data members and member functions. Assume that the library is a collection of books. Construct a class \'93Library\'94.\
+\
+
+\f2\fs22 \cf2 \CocoaLigature0 /*\
+ *  book.h\
+ *  \
+ *\
+ *  Created by Md. Asadul Haque on 1/19/11.\
+ *  Copyright 2011 Tampere University of Technology. All rights reserved.\
+ *\
+ */\cf0 \
+\
+\cf3 #ifndef book_HH\
+#define book_HH\
+\cf0 \
+\cf3 #include \cf4 <string>\cf3 \
+\cf0 \
+\cf5 using\cf0  \cf5 namespace\cf0  std ;\
+\
+\cf5 class\cf0  Book\
+\{\
+\cf5 public\cf0 :\
+	\cf2 //Constructor\cf0 \
+	Book();\
+	Book(string _bookTitle, string _author, string _coAuthor, \cf5 unsigned\cf0  \
+		 _bookNumber, string _edition, \cf5 unsigned\cf0  _yearPublication, string \
+		 _publisher, \cf5 unsigned\cf0  _barCode, \cf5 unsigned\cf0  _copyNumber, string _category)\
+		         \
+	\
+	\cf2 // Destructor\cf0 \
+	~Book() ;\
+	\
+	\cf2 // Operator = \cf0 \
+	Book \cf5 operator\cf0 =(\cf5 const\cf0  Book&) ;\
+	\cf2 // Copy constructor\cf0 \
+	Book(\cf5 const\cf0  Book&) ;\
+	\
+	\cf2 // Getter (Accessors)\cf0 \
+	std::string getBookTitle() \cf5 const\cf0  ;\
+	std::string getAuthor() \cf5 const\cf0  ;\
+	std::string getCoAuthor() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getBookNumber() \cf5 const\cf0  ;\
+	std::string getEdition() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getYearPublication() \cf5 const\cf0  ;\
+	std::string getPublisher() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getBarCode() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getCopyNumber() \cf5 const\cf0  ;\
+	std::string getCategory() \cf5 const\cf0  ;\
+	\
+	\cf2 // Setter (Mutators)\cf0 \
+	\cf5 void\cf0  setBookTitle(std::string _bookTitle) ;\
+	\cf5 void\cf0  setAuthor(std::string _author) ;\
+	\cf5 void\cf0  setCoAuthor(std::string _coAuthor) ;\
+	\cf5 void\cf0  setBookNumber(\cf5 unsigned\cf0  _bookNumber) ;\
+	\cf5 void\cf0  setEdition(std::string _edition) ;\
+	\cf5 void\cf0  setYearPublication(\cf5 unsigned\cf0  _yearPublication) ;\
+	\cf5 void\cf0  setPublisher(std::string _publisher) ;\
+	\cf5 void\cf0  setBarCode(\cf5 unsigned\cf0  _barCode) ;\
+	\cf5 void\cf0  setCopyNumber(\cf5 unsigned\cf0  _copyNumber) ;\
+	\cf5 void\cf0  setCategory(std::string _category);\
+	\
+\cf5 private\cf0 :\
+	\
+	\cf2 // Private data members\cf0 \
+	string bookTitle ;\
+	string author ;\
+	string coAuthor ;\
+	\cf5 unsigned\cf0  bookNumber ;\
+	\cf5 unsigned\cf0  edition ;\
+	\cf5 unsigned\cf0  yearPublication ;\
+	string publisher ;\
+	\cf5 unsigned\cf0  barCode ; \
+	\cf5 unsigned\cf0  copyNumber ;\
+	string category ;	\
+	\
+\} ;\
+\
+\cf3 #endif\
+\
+\
+\
+\
+\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\
+3. 
+\f1\fs24 \cf0 \CocoaLigature1 Construct a class \'93Movie Actor\'94. Consider construction of new classes if needed.\
+\
+
+\f2\fs22 \cf2 \CocoaLigature0 /*\
+ *  movieActor.h\
+ *  \
+ *\
+ *  Created by Md. Asadul Haque on 1/19/11.\
+ *  Copyright 2011 Tampere University of Technology. All rights reserved.\
+ *\
+ */\cf0 \
+\
+\cf3 #ifndef movieActor_HH\
+#define movieActor_HH\
+\cf0 \
+\cf3 #include \cf4 <string>\cf3 \
+\cf0 \
+\cf5 using\cf0  \cf5 namespace\cf0  std ;\
+\
+\cf5 class\cf0  MovieActor \
+\{\
+\cf5 public\cf0 :\
+	\cf2 //Constructor\cf0 \
+	MovieActor();\
+	MovieActor(string _name, string _gender, string _age, string _address,\
+			\cf5 unsigned\cf0  _telephoneNumber, string _movieTypeActing, string \
+			_roleType, \cf5 unsigned\cf0  _actingSince, string _successfulFilms,\
+			\cf5 double\cf0  _salary, string _awardReceived)\
+	\
+	\cf2 // Destructor\cf0 \
+	~MovieActor() ;\
+	\
+	\cf2 // Operator = \cf0 \
+	MovieActor \cf5 operator\cf0 =(\cf5 const\cf0  MovieActor&) ;\
+	\cf2 // Copy constructor\cf0 \
+	MovieActor(\cf5 const\cf0  MovieActor&) ;\
+	\
+	\cf2 // Getter (Accessors)\cf0 \
+	std::string getName() \cf5 const\cf0  ;\
+	std::string getGender() \cf5 const\cf0  ;\
+	std::string getAge() \cf5 const\cf0  ;\
+	std::string getAddress() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getTelephoneNumber() \cf5 const\cf0  ;\
+	std::string getMovieTypeActing() \cf5 const\cf0  ;\
+	std::string getRoleType() \cf5 const\cf0  ;\
+	\cf5 unsigned\cf0  getActingSince() \cf5 const\cf0  ;\
+	std::string getSuccessfulFilms() \cf5 const\cf0  ;\
+	\cf5 double\cf0  getSalary() \cf5 const\cf0  ;\
+	std::string getAwardReceived() \cf5 const\cf0  ;\
+	\
+	\cf2 // Setter (Mutators)\cf0 \
+	\cf5 void\cf0  setName(std::string _name) ;\
+	\cf5 void\cf0  setGender(std::string _gender) ;\
+	\cf5 void\cf0  setAge(std::string _age) ;\
+	\cf5 void\cf0  setAddress(std::string _address) ;\
+	\cf5 void\cf0  setTelephoneNumber(\cf5 unsigned\cf0  _telephoneNumber) ;\
+	\cf5 void\cf0  setMovieTypeActing(std::string _movieTypeActing) ;\
+	\cf5 void\cf0  setRoleType(std::string _roleType) ;\
+	\cf5 void\cf0  setActingSince(\cf5 unsigned\cf0  _actingSince) ;\
+	\cf5 void\cf0  setSuccessfulFilms(std::string _successfulFilms) ;\
+	\cf5 void\cf0  setSalary(\cf5 double\cf0  _salary);\
+	\cf5 void\cf0  setAwardReceived(std::string _awardReceived)\
+\
+\cf5 private\cf0 :\
+	\
+	\cf2 // Private data members\cf0 \
+	string name ;\
+	string gender ;\
+	string age ;\
+	string address ;\
+	\cf5 unsigned\cf0  telephoneNumber ;\
+	string movieTypeActing ;\
+	string roleType ;\
+	\cf5 unsigned\cf0  actingSince ;\
+	string successfulFilms ; \
+	\cf5 double\cf0  salary ;\
+	string awardReceived ;	\
+	\
+\} ;\
+\
+\cf3 #endif
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+
+\f2\fs22 \cf3 \CocoaLigature0 \
+\
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+
+\f2\fs22 \cf3 \CocoaLigature0 \
+\
+\
+\
+}

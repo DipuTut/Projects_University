@@ -1,0 +1,219 @@
+THT1
+v7
+r0
+t320067856.809518
+cCheck dependencies
+cCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o /Users/Dipu/ProTasks/HT1/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/question.o /Users/Dipu/ProTasks/HT1/question.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/player.o /Users/Dipu/ProTasks/HT1/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/selection.o /Users/Dipu/ProTasks/HT1/selection.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp
+c000000004D4D80A0000000000000056F
+t1296924832
+s1391
+
+N/Users/Dipu/ProTasks/HT1/build/Debug/HT1
+t1297659074
+s33400
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/HT1.LinkFileList
+c000000004D62D1590000000000000163
+t1298321753
+s355
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/editedFunction.o
+t2
+s0
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.s
+t1296647945
+s698778
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/player.o
+t1298324281
+s1404
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/question.o
+t2
+s0
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/selection.o
+t1298322403
+s1408
+
+N/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/untitled.o
+t2
+s0
+
+N/Users/Dipu/ProTasks/HT1/main.cpp
+c000000004D62D60700000000000001D3
+t1298322951
+s467
+i<iostream>
+i<cstdlib>
+i<fstream>
+i<vector>
+i"question.h"
+
+N/Users/Dipu/ProTasks/HT1/player.cpp
+c000000004D62D4540000000000000277
+t1298322516
+s631
+i<string>
+i"player.h"
+
+N/Users/Dipu/ProTasks/HT1/player.h
+c000000004D62D45400000000000002D6
+t1298322516
+s726
+i<string>
+i"question.h"
+
+N/Users/Dipu/ProTasks/HT1/question.cpp
+c000000004D63A18F0000000000000393
+t1298375055
+s915
+i"question.h"
+i<string>
+
+N/Users/Dipu/ProTasks/HT1/question.h
+c000000004D62DB350000000000000311
+t1298324277
+s785
+i<string>
+i<iostream>
+
+N/Users/Dipu/ProTasks/HT1/selection.cpp
+c000000004D62D15900000000000000B8
+t1298321753
+s184
+
+N/Users/Dipu/ProTasks/HT1/selection.h
+c000000004D62C865000000000000011A
+t1298319461
+s282
+
+N/Users/Dipu/ProTasks/HT1/untitled.cpp
+c000000004D4A3FB700000000000000B3
+t1296711607
+s179
+i"untitled.h"
+
+N/Users/Dipu/ProTasks/HT1/untitled.h
+c000000004D4A3FB7000000000000009A
+t1296711607
+s154
+
+C<C0003:'CompileC main.o':P8:W0>
+s318340745.040789
+e318340745.379564
+r1
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o
+x/Users/Dipu/ProTasks/HT1/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Dipu/ProTasks/HT1/main.cpp318340745#318340745#0(0"0(0#0#33"/Users/Dipu/ProTasks/HT1/main.cpp7863407194600464384#1065"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -S /Users/Dipu/ProTasks/HT1/main.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.s0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320067856#320067856#0(0"0(0#1#0"8622929088#0"0#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/editedFunction.o /Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s318617706.411264
+e318617706.412087
+r0
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/editedFunction.o
+x/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617706#318617706#0(1090"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:42: error: 'Question' has not been declared/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp: In function 'void readFile(const char*)':/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:48: error: 'fstream' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:48: error: expected `;' before 'inFile'/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:55: error: 'inFile' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:56: error: 'cout' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:58: error: 'inFile' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:61: error: 'cout' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:61: error: 'endl' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:64: error: 'string' was not declared in this scope/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp:64: error: expected `;' before 'input'10(4@32"'Question' has not been declared318617706#0#96#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#42#0#42#0#25"'*' has not been declared0(4@40"'fstream' was not declared in this scope318617706#191#104#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#48#0#48#0#34"'*' was not declared in this scope0(4@28"Expected `;' before 'inFile'318617706#295#92#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#48#0#48#0#19"expected * before *0(4@39"'inFile' was not declared in this scope318617706#387#103#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#55#0#55#0#34"'*' was not declared in this scope0(4@37"'cout' was not declared in this scope318617706#490#101#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#56#0#56#0#34"'*' was not declared in this scope0(4@39"'inFile' was not declared in this scope318617706#591#103#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#58#0#58#0#34"'*' was not declared in this scope0(4@37"'cout' was not declared in this scope318617706#694#101#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#61#0#61#0#34"'*' was not declared in this scope0(4@37"'endl' was not declared in this scope318617706#795#101#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#61#0#61#0#34"'*' was not declared in this scope0(4@39"'string' was not declared in this scope318617706#896#103#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#64#0#64#0#34"'*' was not declared in this scope0(4@27"Expected `;' before 'input'318617706#999#91#0(6@51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp318617632#64#0#64#0#19"expected * before *0(0#0#51"/Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp8612348256#1093"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/../test/editedFunction.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/editedFunction.o1#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o /Users/Dipu/ProTasks/HT1/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320067856.558291
+e320067856.809464
+r0
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o
+x/Users/Dipu/ProTasks/HT1/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Dipu/ProTasks/HT1/main.cpp:10:
+o/Users/Dipu/ProTasks/HT1/question.h:21: error: expected `)' before 'question'
+o/Users/Dipu/ProTasks/HT1/question.h:33: error: 'string' does not name a type
+o/Users/Dipu/ProTasks/HT1/question.h:38: error: 'string' has not been declared
+o/Users/Dipu/ProTasks/HT1/question.h:47: error: 'string' does not name a type
+o/Users/Dipu/ProTasks/HT1/main.cpp: In function 'int main(int, char* const*)':
+o/Users/Dipu/ProTasks/HT1/main.cpp:22: warning: unused variable 'File'
+o/Users/Dipu/ProTasks/HT1/main.cpp:24: warning: unused variable 'Textfile'
+lSLF07#2@41"Compile /Users/Dipu/ProTasks/HT1/main.cpp320067856#320067856#0(592"In file included from /Users/Dipu/ProTasks/HT1/main.cpp:10:/Users/Dipu/ProTasks/HT1/question.h:21: error: expected `)' before 'question'/Users/Dipu/ProTasks/HT1/question.h:33: error: 'string' does not name a type/Users/Dipu/ProTasks/HT1/question.h:38: error: 'string' has not been declared/Users/Dipu/ProTasks/HT1/question.h:47: error: 'string' does not name a type/Users/Dipu/ProTasks/HT1/main.cpp: In function 'int main(int, char* const*)':/Users/Dipu/ProTasks/HT1/main.cpp:22: warning: unused variable 'File'/Users/Dipu/ProTasks/HT1/main.cpp:24: warning: unused variable 'Textfile'6(4@30"Expected `)' before 'question'320067856#60#78#2(7@55"In file included from /Users/Dipu/ProTasks/HT1/main.cpp320067856#18446744073709551615#0#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#10#0#10#0#0"0(13@69"Expected `)' before 'question' in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#21#0#21#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#21#0#21#0#19"expected * before *0(4@29"'string' does not name a type320067856#138#77#2(7@55"In file included from /Users/Dipu/ProTasks/HT1/main.cpp320067856#18446744073709551615#0#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#10#0#10#0#0"0(13@68"'string' does not name a type in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#33#0#33#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#33#0#33#0#24"'*' does not name a type0(4@30"'string' has not been declared320067856#215#78#2(7@55"In file included from /Users/Dipu/ProTasks/HT1/main.cpp320067856#18446744073709551615#0#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#10#0#10#0#0"0(13@69"'string' has not been declared in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#38#0#38#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#38#0#38#0#25"'*' has not been declared0(4@29"'string' does not name a type320067856#293#77#2(7@55"In file included from /Users/Dipu/ProTasks/HT1/main.cpp320067856#18446744073709551615#0#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#10#0#10#0#0"0(13@68"'string' does not name a type in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#47#0#47#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#47#0#47#0#24"'*' does not name a type0(22@22"Unused variable 'File'320067856#448#70#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#22#0#22#0#19"unused variable '*'0(22@26"Unused variable 'Textfile'320067856#518#74#0(6@33"/Users/Dipu/ProTasks/HT1/main.cpp320015751#24#0#24#0#19"unused variable '*'0(0#0#33"/Users/Dipu/ProTasks/HT1/main.cpp8608154496#1065"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/main.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/main.o1#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/player.o /Users/Dipu/ProTasks/HT1/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320017081.043843
+e320017081.071831
+r1
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/player.o
+x/Users/Dipu/ProTasks/HT1/player.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/Dipu/ProTasks/HT1/player.cpp320017081#320017081#0(0"0(0#0#35"/Users/Dipu/ProTasks/HT1/player.cpp8620685952#1069"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/player.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/player.o0#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/question.o /Users/Dipu/ProTasks/HT1/question.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320067856.559483
+e320067856.560572
+r0
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/question.o
+x/Users/Dipu/ProTasks/HT1/question.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Dipu/ProTasks/HT1/question.cpp320067856#320067856#0(1951"In file included from /Users/Dipu/ProTasks/HT1/question.cpp:10:/Users/Dipu/ProTasks/HT1/question.h:21: error: expected `)' before 'question'/Users/Dipu/ProTasks/HT1/question.h:33: error: 'string' does not name a type/Users/Dipu/ProTasks/HT1/question.h:38: error: 'string' has not been declared/Users/Dipu/ProTasks/HT1/question.h:47: error: 'string' does not name a type/Users/Dipu/ProTasks/HT1/question.cpp:24: error: prototype for 'Question::Question(std::string, unsigned int)' does not match any in class 'Question'/Users/Dipu/ProTasks/HT1/question.h:29: error: candidates are: Question::Question(const Question&)/Users/Dipu/ProTasks/HT1/question.h:20: error:                 Question::Question()/Users/Dipu/ProTasks/HT1/question.cpp: In constructor 'Question::Question(std::string, unsigned int)':/Users/Dipu/ProTasks/HT1/question.cpp:26: error: '_question' was not declared in this scope/Users/Dipu/ProTasks/HT1/question.cpp: At global scope:/Users/Dipu/ProTasks/HT1/question.cpp:45: error: no 'std::string Question::getQuestion() const' member function declared in class 'Question'/Users/Dipu/ProTasks/HT1/question.cpp: In member function 'std::string Question::getQuestion() const':/Users/Dipu/ProTasks/HT1/question.cpp:47: error: '_question' was not declared in this scope/Users/Dipu/ProTasks/HT1/question.cpp: At global scope:/Users/Dipu/ProTasks/HT1/question.cpp:52: error: prototype for 'void Question::setQuestion(std::string)' does not match any in class 'Question'/Users/Dipu/ProTasks/HT1/question.h:38: error: candidate is: void Question::setQuestion(int)/Users/Dipu/ProTasks/HT1/question.cpp: In member function 'void Question::setQuestion(std::string)':/Users/Dipu/ProTasks/HT1/question.cpp:54: error: '_question' was not declared in this scope/Users/Dipu/ProTasks/HT1/question.cpp: In function 'void setLevel(unsigned int)':/Users/Dipu/ProTasks/HT1/question.cpp:60: error: '_level' was not declared in this scope16(4@30"Expected `)' before 'question'320067856#64#78#2(7@59"In file included from /Users/Dipu/ProTasks/HT1/question.cpp320067856#18446744073709551615#0#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#10#0#10#0#0"0(13@69"Expected `)' before 'question' in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#21#0#21#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#21#0#21#0#19"expected * before *0(4@29"'string' does not name a type320067856#142#77#2(7@59"In file included from /Users/Dipu/ProTasks/HT1/question.cpp320067856#18446744073709551615#0#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#10#0#10#0#0"0(13@68"'string' does not name a type in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#33#0#33#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#33#0#33#0#24"'*' does not name a type0(4@30"'string' has not been declared320067856#219#78#2(7@59"In file included from /Users/Dipu/ProTasks/HT1/question.cpp320067856#18446744073709551615#0#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#10#0#10#0#0"0(13@69"'string' has not been declared in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#38#0#38#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#38#0#38#0#25"'*' has not been declared0(4@29"'string' does not name a type320067856#297#77#2(7@59"In file included from /Users/Dipu/ProTasks/HT1/question.cpp320067856#18446744073709551615#0#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#10#0#10#0#0"0(13@68"'string' does not name a type in /Users/Dipu/ProTasks/HT1/question.h320067856#18446744073709551615#0#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#47#0#47#0#0"0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#47#0#47#0#24"'*' does not name a type0(4@100"Prototype for 'Question::Question(std::string, unsigned int)' does not match any in class 'Question'320067856#374#150#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#24#0#24#0#0"0(4@51"Candidates are: Question::Question(const Question&)320067856#524#99#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#29#0#29#0#0"0(4@20"Question::Question()320067856#623#84#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#20#0#20#0#0"0(4@42"'_question' was not declared in this scope320067856#810#92#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#26#0#26#0#34"'*' was not declared in this scope0(23@16"At global scope:320067856#902#56#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#0#0#0#0#0"0(4@91"No 'std::string Question::getQuestion() const' member function declared in class 'Question'320067856#958#141#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#45#0#45#0#0"0(4@42"'_question' was not declared in this scope320067856#1202#92#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#47#0#47#0#34"'*' was not declared in this scope0(23@16"At global scope:320067856#1294#56#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#0#0#0#0#0"0(4@94"Prototype for 'void Question::setQuestion(std::string)' does not match any in class 'Question'320067856#1350#144#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#52#0#52#0#0"0(4@45"Candidate is: void Question::setQuestion(int)320067856#1494#93#0(6@35"/Users/Dipu/ProTasks/HT1/question.h320017077#38#0#38#0#0"0(4@42"'_question' was not declared in this scope320067856#1688#92#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#54#0#54#0#34"'*' was not declared in this scope0(4@39"'_level' was not declared in this scope320067856#1862#89#0(6@37"/Users/Dipu/ProTasks/HT1/question.cpp320067855#60#0#60#0#34"'*' was not declared in this scope0(0#0#37"/Users/Dipu/ProTasks/HT1/question.cpp8623001024#1073"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/question.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/question.o1#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/selection.o /Users/Dipu/ProTasks/HT1/selection.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s320015203.624142
+e320015203.648903
+r1
+xCompileC
+xbuild/HT1.build/Debug/HT1.build/Objects-normal/x86_64/selection.o
+x/Users/Dipu/ProTasks/HT1/selection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Dipu/ProTasks/HT1/selection.cpp320015203#320015203#0(0"0(0#0#38"/Users/Dipu/ProTasks/HT1/selection.cpp8613881600#1075"    cd /Users/Dipu/ProTasks/HT1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-generated-files.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-own-target-headers.hmap -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-all-target-headers.hmap -iquote /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/HT1-project-headers.hmap -F/Users/Dipu/ProTasks/HT1/build/Debug -I/Users/Dipu/ProTasks/HT1/build/Debug/include -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources/x86_64 -I/Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/DerivedSources -c /Users/Dipu/ProTasks/HT1/selection.cpp -o /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/selection.o0#
+
+CCompileC build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/untitled.o /Users/Dipu/ProTasks/HT1/untitled.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/Dipu/ProTasks/HT1/build/Debug/HT1 normal x86_64
+s319351874.410974
+e319351874.426045
+r1
+xLd
+x/Users/Dipu/ProTasks/HT1/build/Debug/HT1
+xnormal
+xx86_64
+lSLF07#2@45"Link /Users/Dipu/ProTasks/HT1/build/Debug/HT1319351874#319351874#0(0"0(0#0#0"7665776580704888832#412"    cd /Users/Dipu/ProTasks/HT1    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dipu/ProTasks/HT1/build/Debug -F/Users/Dipu/ProTasks/HT1/build/Debug -filelist /Users/Dipu/ProTasks/HT1/build/HT1.build/Debug/HT1.build/Objects-normal/x86_64/HT1.LinkFileList -mmacosx-version-min=10.6 -o /Users/Dipu/ProTasks/HT1/build/Debug/HT10#
+
